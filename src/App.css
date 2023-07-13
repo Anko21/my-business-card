@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+}
+body{
+  font-family: Inter;
+  height:100vh;
+  width:520px;
+  margin:auto;
+  background-color: #23252C;
+}
+.header, .main{
+  background: #1A1B21;
+}
+.img--prof{
+  display: flex;
+  height:60vh;
+  margin:auto;
+  padding:10px;
+}
+.header h1{
+  color: #FFF;
+  text-align: center;
+  font-size: 25px;
+  margin:0;
+  padding-top:21px
+}
+.header h3{
+  color: #F3BF99;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  margin:0;
+  padding-bottom:40px
+}
+.button--socials{
+  display: flex;
+  margin : 0 auto 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap:8px;
+  width: 247px;
+  padding: 9px 11px 9px 11px;
+  border-radius: 6px;
+  background: #5093E2;
+  border: 1px solid var(--gray-300, #D1D5DB);
+}
+.header--socials{
+  margin-block : auto;
+  text-decoration: none;
+  background: #5093E2;
+  color: #FFFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+}
+.linkedIn-icon{
+  margin-block : auto;
+  background-color:#5093E2;
+  color: #FFFF
+}
+.main h1{
+  color: #F5F5F5;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 150%; /* 24px */
+  margin-block:0;
+  padding:30px 34px 5px 34px;
+}
+.main p{
+  color: #DCDCDC;
+  margin-block:0;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+  padding:0px 34px 0px 34px;
+}
+.footer{
+  display:flex;
+  gap:px;
+  border-radius: 0px 0px 10px 10px;
+  background: #161619;
+  width:520px;
+  padding:20px 0 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+
