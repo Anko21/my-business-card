@@ -12,9 +12,10 @@ body{
 .header, .main{
   background: #1A1B21;
 }
+
 .img--prof{
   display: flex;
-  height:60vh;
+  width:60%;
   margin:auto;
   padding:10px;
 }
